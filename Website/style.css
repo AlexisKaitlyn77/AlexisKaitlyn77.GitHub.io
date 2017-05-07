@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*============================
+	General Styles (Fonts)
+============================*/
+
+
+h6{
+	font-family: "inherit";
+	font-size: 35px;
+	color: #442917;
+}
+
+h5{
+	font-family: "inherit";
+	font-size: 25px;
+	color: #442917;
+}
+
+
+h1 {
+	font-family: "sansita";
+	font-size: 100px;
+	color: #442917;
+}
+
+b {
+	font-family: "Times New Roman";
+	font-size: 30px;
+	color: #50c5b7;
+}
+
+
+
+
+
+/*=======================
+	Navigation Menu   
+========================*/
+
+
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    Padding: 0;
+}
+
+li{
+    display: inline;
+    font-size: 30px;
+    font-family: cursive;
+    color: #ddd;
+    background-color: #D86000;
+    margin: 0;
+    float: left;
+    padding: 20px 0px;
+    width: 25%;
+    text-align: center;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+	color: #B04E00;
+    background-color: #FD8113;
+}
+
+li:hover {
+    color: #BADA55;
+    background-color: #FD8113;
+}
+
+li {
+    background-position: center;
+}
+
+
+body {
+    background-color: #00837E;
+}
+
+
+
+
+
+/*=================
+	Main Page
+=================*/
+
+
+
+.name {
+	padding: 30px;
+	width: 100%;
+}
+
+#SelfPortrait {
+    width: 285px;
+    background-color: #58A000;
+/*    height: 425px; */
+	height: 380px;
+    border: 5px double #2A4918;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px;
+    text-align: right;
+	margin: 30px 30px;
+	float: right;
+}
+
+.quote {
+    height: 300px;
+	padding: 100px 30px 30px 30px;
+	width: 140px;
+	float: right;
+	text-align: right;
+}
+
+.intro, .me {
+	font-family: "Times New Roman";
+    font-size: 30px;
+    color: #442917;
+	margin: 30px;
+}
+
+
+
+.right {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+/*======================
+	Job Experience
+======================*/
+
+
+
+.JobExperience {
+	padding: 30px;
+	width: 50%;
+}
+
+.Experience {
+	margin: 15px;
+	font-family: "TimesNewRoman";
+	font-size: 30px;
+	color: #442917;
+	width: 1300px;
+	display: flex;
+}
+
+.resthome, .PrimeRoast {
+	width: 600px;
+	padding: 30px;
+	border-left-style: solid;
+	border-color: #863B00;
+	border-width: 30px;
+}
+
+.PrimeRoast {
+	float: right;
+}
+
+
+
+
+
+
+
+/*==============
+	Education
+==============*/
+
+
+.Education {
+	padding: 30px;
+}
+
+.Achievements {
+	padding: 15px 15px 15px 50px;
+	width: 250px;
+}
+
+.Schooling, .ATCAwards, .SchoolAwards {
+	padding: 15px;
+	font-family: "Times New Roman";
+    font-size: 20px;
+    color: #442917;
+	border-left-style: solid;
+	border-color: #00514E;
+	border-width: 30px;
+}
+
+
+
+.SchoolAwards {
+	float: right;
+	width: 550px;
+}
+
+.ATCSchooling {
+	float: left;
+	width: 550px;
+}
+
+
+
+
+/*===================
+	Art Portfolio
+===================*/
+
+
+.art{
+	padding: 30px;
+	width: 600px;
+}
+
+.ArtExplain {
+/*	margin: 30px;*/
+	font-family: "TimesNewRoman";
+	font-size: 22px;
+	color: #442917;
+	width: 530px;
+}
+
+.MyDrawings, .Copyright {
+	padding: 15px 15px 15px 30px;
+}
+
+.ArtLeftSide {
+	float: left;
+}
+
+.PhotosInPortfolio {
+	font-family: "TimesNewRoman";
+	font-size: 25px;
+}
+
+
+.Girl {
+	border: 5px double #44001B;
+	border-radius: 30px;
+	color: #44001B;
+	margin: 30px;
+	width:409px;
+	height: 673px;
+	padding: 30px;
+	float: left;
+}
+
+
+.Andy, .PTV {
+	border-radius: 30px;
+	padding: 30px;
+	width: 550px;
+	float: right;
+}
+
+.Andy {
+	border: 5px double #284800;
+	height: 278px;
+	color: #284800;
+	display:flex;
+}
+
+.PTV {
+	border: 5px double #4F2300;
+	height: 490px;
+	color: #4F2300;
+	margin-top: 40px;
+}
+
+.PTVAndy {
+	float: right;
+	width: 550px;
+	margin: 108px 30px 30px 30px;
+	padding: 30px;
+}
+
+.AndyWriting {
+	margin: 17px
+}
+
+.GirlWriting, .PTVWriting {
+	padding: 30px;
+}
